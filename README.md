@@ -1,2 +1,2 @@
 # Miscellonifyntastic
-miscello (from miscellaneous) + nify (amplify/fy) + tastic
+miscello (from miscellaneous) + nify (amplify/fyn) + tastic
