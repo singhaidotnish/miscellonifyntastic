@@ -4,9 +4,26 @@ miscello (from miscellaneous) + nify (amplify/fyn) + tastic
 
 #### Reinstall basic needs in xubuntu
 
-chmod +x capture_packages.sh reinstall_from_list.sh nishith-extras-setup.sh
+chmod +x bootstrap.sh
 
+Run with options:
 
-./capture_packages.sh my-packages.txt
-./reinstall_from_list.sh my-packages.txt
-./nishith-extras-setup.sh
+    Save current package list:
+
+./bootstrap.sh capture my-packages.txt
+
+Reinstall from list:
+
+./bootstrap.sh reinstall my-packages.txt
+
+Install extras (GPU, AV, Dev, Docker, Timeshift, tools):
+
+./bootstrap.sh extras
+
+Skip GPU stuff:
+
+./bootstrap.sh extras --no-gpu
+
+Do all steps in sequence:
+
+./bootstrap.sh all
