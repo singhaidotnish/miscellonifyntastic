@@ -6,6 +6,24 @@ miscello (from miscellaneous) + nify (amplify/fyn) + tastic
 
 chmod +x bootstrap.sh
 
+./bootstrap.sh capture my-packages.txt
+
+# Reinstall from list:
+
+./bootstrap.sh reinstall my-packages.txt
+
+# Install extras (GPU, AV, Dev, Docker, Timeshift, tools):
+
+./bootstrap.sh extras
+
+# Skip GPU stuff:
+
+./bootstrap.sh extras --no-gpu
+
+# Do all steps in sequence:
+
+./bootstrap.sh all
+
 # Install everything incl. Resolve deps and NVIDIA:
 ./bootstrap.sh extras
 
