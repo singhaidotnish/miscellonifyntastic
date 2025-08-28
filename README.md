@@ -1,6 +1,13 @@
 # Miscellonifyntastic
 miscello (from miscellaneous) + nify (amplify/fyn) + tastic
 
+#### Two steps to reinstall 
+
+#####1. > chmod +x ~/bootstrap.sh
+> ./bootstrap.sh reinstall ~/my-packages.txt
+#####2. > chmod +x restore_from_capture.sh
+> ./restore_from_capture.sh ~/system-capture-YYYYMMDD-HHMMSS
+
 
 #### Reinstall basic needs in xubuntu
 
