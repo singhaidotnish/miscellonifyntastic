@@ -8,28 +8,28 @@ chmod +x bootstrap.sh
 
 ./bootstrap.sh capture my-packages.txt
 
-# Reinstall from list:
+#### Reinstall from list:
 
 ./bootstrap.sh reinstall my-packages.txt
 
-# Install extras (GPU, AV, Dev, Docker, Timeshift, tools):
+#### Install extras (GPU, AV, Dev, Docker, Timeshift, tools):
 
 ./bootstrap.sh extras
 
-# Skip GPU stuff:
+#### Skip GPU stuff:
 
 ./bootstrap.sh extras --no-gpu
 
-# Do all steps in sequence:
+#### Do all steps in sequence:
 
 ./bootstrap.sh all
 
-# Install everything incl. Resolve deps and NVIDIA:
+#### Install everything incl. Resolve deps and NVIDIA:
 ./bootstrap.sh extras
 
-# Skip Resolve deps:
+#### Skip Resolve deps:
 ./bootstrap.sh extras --no-resolve-deps
 
-# Full sequence (capture -> reinstall -> extras):
+#### Full sequence (capture -> reinstall -> extras):
 ./bootstrap.sh all
 
