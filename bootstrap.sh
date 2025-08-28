@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# How to use ?
+# chmod +x bootstrap.sh
 # bootstrap.sh
 # Capture current package list, reinstall from it, and set up extra tools/dev environment.
 # Usage:
