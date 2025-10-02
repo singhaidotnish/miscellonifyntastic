@@ -1,42 +1,24 @@
 # Miscellonifyntastic
-miscello (from miscellaneous) + nify (amplify/fyn) + tastic
+###### miscello (from miscellaneous) + nify (amplify/fyn) + tastic
 
-#### Two steps to reinstall 
+### with this one script (manage_packages.sh) you’ve got the full cycle covered:
 
-#####1. > chmod +x ~/bootstrap.sh
-> ./bootstrap.sh reinstall ~/my-packages.txt
-#####2. > chmod +x restore_from_capture.sh
-> ./restore_from_capture.sh ~/system-capture-YYYYMMDD-HHMMSS
+#### Create / export a list of your current manually-installed packages:
+
+> ./manage_packages.sh capture my-packages.txt
 
 
-#### Reinstall basic needs in xubuntu
+#### Reinstall from a list (on a fresh system):
 
-chmod +x bootstrap.sh
+> ./manage_packages.sh reinstall my-packages.txt
 
-./bootstrap.sh capture my-packages.txt
 
-#### Reinstall from list:
+#### Keep it clean and updated:
 
-./bootstrap.sh reinstall my-packages.txt
+##### Add/remove packages from the list (add, remove).
 
-#### Install extras (GPU, AV, Dev, Docker, Timeshift, tools):
+##### Check what changed vs your current system (diff).
 
-./bootstrap.sh extras
+##### Verify all packages exist in apt repos (verify).
 
-#### Skip GPU stuff:
-
-./bootstrap.sh extras --no-gpu
-
-#### Do all steps in sequence:
-
-./bootstrap.sh all
-
-#### Install everything incl. Resolve deps and NVIDIA:
-./bootstrap.sh extras
-
-#### Skip Resolve deps:
-./bootstrap.sh extras --no-resolve-deps
-
-#### Full sequence (capture -> reinstall -> extras):
-./bootstrap.sh all
-
+##### Deduplicate & normalize (dedupe).

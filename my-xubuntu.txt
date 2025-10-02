@@ -14,12 +14,15 @@ docker-compose-plugin
 efibootmgr
 emacs
 extrepo
+fdclone
+ffmpeg
 flatpak
 fonts-indic
 gdebi
 gimp-help-en
 git
 github-desktop
+gnome-calculator
 gparted
 gpg
 grub2-common
@@ -48,6 +51,7 @@ linux-generic-hwe-22.04
 meld
 mokutil
 mousepad
+mpv
 mythes-en-us
 ncurses-base
 ncurses-bin
@@ -59,6 +63,7 @@ pavucontrol
 python3.10-venv
 python3-pip
 ripgrep
+ristretto
 shim-signed
 thunar-archive-plugin
 thunderbird-locale-en
@@ -71,5 +76,4 @@ wbritish
 wget
 xarchiver
 xppenlinux
-xubuntu-core
 zip
