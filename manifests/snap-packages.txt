@@ -1,0 +1,12 @@
+bare
+core22
+core24
+cups
+firefox
+gnome-42-2204
+gnome-46-2404
+gtk-common-themes
+mesa-2404
+onlyoffice-desktopeditors
+pycharm-community
+snapd

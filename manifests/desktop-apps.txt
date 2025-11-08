@@ -1,0 +1,114 @@
+Accessibility
+Access Prompt
+Additional Drivers
+Advanced Network Configuration
+Appearance
+Application Finder
+Base
+Bluetooth Adapters
+Bluetooth Manager
+Bookmark Editor
+Bulk Rename
+Calc
+Calculator
+Character Map
+Chromium Web Browser
+Color Profiles
+Compose New Message
+Computer
+Contacts
+Create Launcher on the panel
+Cubic
+Default Applications
+Desktop
+Display
+Draw
+Emacs (GUI)
+Emacs (Terminal)
+File Manager
+File Manager Settings
+Firefox Web Browser
+Floating Xfce
+GDebi Package Installer
+Geoclue Demo agent
+ghostwriter
+GitHub Desktop
+Google Chrome
+Google Maps
+GParted
+Handler for snap:// URIs
+Help
+Home
+Impress
+KDED
+KDE Wallet Service
+Keyboard
+KolourPaint
+Krita
+KTelnetService
+LibreOffice
+LibreOffice XSLT based filters
+LibreWolf
+Livepatch
+Log Out
+Mail Reader
+Math
+Meld
+Mouse and Touchpad
+Mousepad
+Mousepad Preferences
+mpv Media Player
+Network
+New Incognito Window
+New Private Window
+New Window
+Notifications
+Open a New Window
+Open a New Window in incognito mode
+Open a New Window with a temporary profile
+OpenStreetMap
+Panel
+Pop art squares
+Portal
+Power Manager
+PulseAudio Volume Control
+Python (v3.10)
+Qwant Maps
+Reactivate HP LaserJet 1018/1020 after reloading paper
+Removable Drives and Media
+Ristretto Image Viewer
+Run Program...
+Screensaver
+Screenshot
+Session and Startup
+Settings Editor
+Settings Manager
+Show Preferences
+Slideshow
+Snapd User Session Agent
+Software & Updates
+Start in Safe Mode
+Synaptic Package Manager
+Terminal Emulator
+Terminal Preferences
+TeXdoctk
+TeXInfo
+Text Editor Settings
+Thunar File Manager
+Thunderbird Mail
+Timeshift
+Trash
+UXTerm
+View file
+Vim
+Web Browser
+wheelmap.org
+Window Manager
+Window Manager Tweaks
+Workspaces
+Writer
+Xarchiver
+Xfce Terminal
+Xfce Terminal Settings
+xppentablet
+XTerm

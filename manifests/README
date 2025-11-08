@@ -1,0 +1,16 @@
+Manifests exported on: Saturday 08 November 2025 04:50:56 PM IST
+Files:
+ - apt-packages.txt        (apt/dpkg package names)           (if present)
+ - dnf-packages.txt        (dnf package names)               (if present)
+ - pacman-packages.txt     (pacman package names)            (if present)
+ - snap-packages.txt       (snap names)
+ - flatpak-apps.txt        (flatpak app ids)
+ - pip-packages.txt        (pip freeze output)
+ - npm-global-packages.txt (npm global packages)
+ - cargo-packages.txt      (cargo installed bins)
+ - brew-packages.txt       (homebrew packages - mac)
+ - desktop-apps.txt        (GUI apps names from .desktop files)
+ - opt-list.txt            (contents of /opt)
+ - usr-local-list.txt      (contents of /usr/local)
+ - appimages.txt           (found AppImages)
+Review these files before using the installer script.

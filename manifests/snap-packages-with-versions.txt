@@ -1,0 +1,12 @@
+bare installed:          1.0            (5) 4kB base
+core22 installed:                20250923                 (2139) 77MB base
+core24 installed:                20251001                 (1225) 70MB base
+cups installed:          2.4.12-2            (1116) 51MB -
+firefox installed:          144.0.2-1               (7177) 261MB -
+gnome-42-2204 installed:          0+git.837775c-sdk0+git.7b07595            (226) 541MB -
+gnome-46-2404 installed:          0+git.4ca00c0-sdk0+git.df43897            (125) 648MB -
+gtk-common-themes installed:          0.1-81-g442e511             (1535) 96MB -
+mesa-2404 installed:          24.2.8-snap185             (912) 304MB -
+onlyoffice-desktopeditors installed:          9.1.0            (746) 904MB -
+pycharm-community installed:          2025.2.3              (534)   1GB classic
+snapd installed:          2.72                         (25577) 53MB snapd

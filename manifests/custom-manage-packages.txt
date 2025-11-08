@@ -1,0 +1,17 @@
+Usage: ./manage-packages.sh [--flavor {auto|xubuntu|ubuntu|kde|server|minimal|none}] <command> [args...]
+
+Commands:
+  capture   <LISTFILE>        Export current manually-installed packages (filtered by flavor) to LISTFILE
+  reinstall <LISTFILE>        Install packages from LISTFILE (ignores comments/blanks)
+  diff      <LISTFILE>        Show diff between LISTFILE and current manual packages
+  add       <LISTFILE> pkgs.. Append packages to LISTFILE and dedupe
+  remove    <LISTFILE> pkgs.. Remove packages from LISTFILE (keeps comments)
+  list      <LISTFILE>        Show normalized, deduped package names with line numbers
+  dedupe    <LISTFILE>        Normalize + dedupe LISTFILE (preserve comments)
+  verify    <LISTFILE>        Check if each package in LISTFILE exists in apt cache
+
+Global:
+  --flavor auto|xubuntu|ubuntu|kde|server|minimal|none   (default: auto)
+  --show-flavors
+
+Tip: Use '--flavor none' if you want to capture literally everything apt-mark considers manual.
