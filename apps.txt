@@ -1,0 +1,30 @@
+# Smart Installer Configuration
+# List one app per line. Lines starting with # are ignored.
+
+# Development Tools
+git
+python3-pip
+build-essential
+vscode
+docker
+nodejs
+github-cli
+github-desktop
+
+# Browsers
+chrome
+brave
+firefox
+
+# Media & Graphics
+vlc
+gimp
+ffmpeg
+kolourpaint
+krita
+
+# Utilities
+htop
+neofetch
+tree
+tmux
