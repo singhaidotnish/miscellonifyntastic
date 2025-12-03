@@ -3,6 +3,7 @@
 
 # Development Tools
 git
+python3-pip
 build-essential
 vscode
 docker
